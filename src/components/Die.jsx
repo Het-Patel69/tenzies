@@ -6,7 +6,7 @@ export default function Die(props) {
 
   return (
     <div className={dice_classes} onClick={props.toggleFunction}>
-      <img src={`./src/img/dice-six-faces- (${props.diceValue}).svg`} alt="" />
+      <img src={`./img/dice-six-faces- (${props.diceValue}).svg`} alt="" />
     </div>
   );
 }
