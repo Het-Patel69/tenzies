@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background: #0b2434;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width:400px) {
+  body{
+    padding: 0.7rem;
+  }
+}
